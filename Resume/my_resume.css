@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 550px;
+    height: 900px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 6px;
+}
+nav a{
+    float: right;
+    padding-top: 50px;
+    font-size: 20px;
+    padding-right: 30px;
+    color: black;
+}
+.second{
+    color: white;
+    padding-top: 30px;
+    background-color: rgb(118, 118, 239);
+    height: 80px;
+    border-radius: 10px;
+}
+h1,p{
+    text-align: center;
+}
+.form{
+    padding-top: 60px;
+    font-size: 20px;
+    
+}
+.form label{
+    font-weight: bolder;
+}
+.form label,input[type ="text"]{
+    padding-top: 15px;
+    width: 100%;
+    border: none;
+}
+input[type ="text"]{
+    font-size: 20px;
+    padding-left: 20px;
+    border-radius: 6px;
+    padding-top: 10px;
+}
+.form label{
+    padding-top: 10px;
+}
+input[type ="number"]{
+    font-size: 20px;
+    padding-left: 20px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding-top: 10px;
+}
+input[type ="email"]{
+    padding-left: 20px;
+    font-size: 20px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding-top: 10px;
+}
+.cont{
+    padding-top: 30px;
+    padding-left: 140px;
+    color: white;
+}
+.cont button{
+    border-radius: 6px;
+    width: 250px;
+    height: 40px;
+    color: white;
+    background-color: rgb(87, 231, 89);
+    font-size: 20px;
+}
+
+
